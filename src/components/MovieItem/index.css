@@ -1,0 +1,43 @@
+.close-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.thumbnail {
+  width: 215px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.close-icon {
+  font-size: 22px;
+  color: #231f20;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.popup-content {
+  border-radius: 20px;
+  height: 460px;
+  width: 750px;
+  background-color: white;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.movie-player-container {
+  margin-top: 12px;
+  margin-left: 48px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+}
